@@ -44,19 +44,19 @@ namespace Assignment1
 
                     if (c == 'l')//condition when  left
                     {
-                        x -= 1;
+                        x -= 1;//subtracting one form x if it moves right
                     }
                     else if (c == 'r')//condition when  right
                     {
-                        x += 1;
+                        x += 1;//adding 1 to x if it moves left
                     }
                     else if (c == 'u')//condition when  up
                     {
-                        y += 1;
+                        y += 1;//adding one to y if it moves up
                     }
                     else if (c == 'd')//condition when  Down
                     {
-                        y -= 1;
+                        y -= 1;//subtracting 1 from y if it moves down
                     }
 
                 }
